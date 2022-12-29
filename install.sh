@@ -1,2 +1,6 @@
-# LunarVim
-sudo zypper install node npm cargo neovim lunarvim 
+# development tools
+#sudo zypper install 
+
+
+#Git config
+git config --global push.default current
