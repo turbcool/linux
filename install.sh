@@ -1,2 +1,2 @@
 # LunarVim
-sudo zypper install node npm cargo lunarvim 
+sudo zypper install node npm cargo neovim lunarvim 
