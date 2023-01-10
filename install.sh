@@ -7,6 +7,10 @@
 #Git config
 git config --global push.default current
 
+# Joplin (source: https://github.com/taw00/joplin-rpm)
+#sudo wget https://copr.fedorainfracloud.org/coprs/taw/joplin/repo/opensuse-tumbleweed/taw-joplin-opensuse-tumbleweed.repo -O /etc/zypp/repos.d/taw-joplin-opensuse-tumbleweed.repo
+#sudo zypper refresh
+#sudo zypper install joplin
 
 # Yandex Disk (source: https://nkonev.name/post/90)
 sudo zypper install davfs2
