@@ -3,6 +3,8 @@
 # development tools
 #sudo zypper install 
 
+# nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 
 #Git config
 git config --global push.default current
