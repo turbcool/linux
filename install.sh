@@ -32,3 +32,4 @@ chmod 600 ~/.davfs2/secrets
 # Download: https://www.gosuslugi.ru/crt
 sudo cp russian_trusted_sub_ca_pem.crt /usr/share/pki/trust/anchors
 sudo cp russian_trusted_root_ca_pem.crt /usr/share/pki/trust/anchors
+sudo update-ca-certificates
