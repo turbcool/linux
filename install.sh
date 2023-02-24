@@ -26,3 +26,9 @@ echo "https://webdav.yandex.ru /run/media/turb/yandex.ivnaidanov davfs noauto,us
 mkdir ~/.davfs2
 echo "/run/media/turb/yandex.ivnaidanov ivnaidanov@hse.ru zwmfoqaiyyzhufeg" | sudo tee -a ~/.davfs2/secrets
 chmod 600 ~/.davfs2/secrets
+
+
+# Certificates:
+# Download: https://www.gosuslugi.ru/crt
+sudo cp russian_trusted_sub_ca_pem.crt /usr/share/pki/trust/anchors
+sudo cp russian_trusted_root_ca_pem.crt /usr/share/pki/trust/anchors
