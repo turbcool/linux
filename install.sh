@@ -28,7 +28,7 @@ echo "/run/media/turb/yandex.ivnaidanov ivnaidanov@hse.ru zwmfoqaiyyzhufeg" | su
 chmod 600 ~/.davfs2/secrets
 
 
-# Certificates:
+# Russian Root certificates:
 # Download: https://www.gosuslugi.ru/crt
 sudo cp russian_trusted_sub_ca_pem.crt /usr/share/pki/trust/anchors
 sudo cp russian_trusted_root_ca_pem.crt /usr/share/pki/trust/anchors
@@ -36,3 +36,4 @@ sudo update-ca-certificates
 
 #lazydocker
 go install github.com/jesseduffield/lazydocker@latest
+echo "alias lzd='lazydocker'" >> ~/.bashrc #lzd alias
