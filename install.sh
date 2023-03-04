@@ -33,3 +33,6 @@ chmod 600 ~/.davfs2/secrets
 sudo cp russian_trusted_sub_ca_pem.crt /usr/share/pki/trust/anchors
 sudo cp russian_trusted_root_ca_pem.crt /usr/share/pki/trust/anchors
 sudo update-ca-certificates
+
+#lazydocker
+go install github.com/jesseduffield/lazydocker@latest
