@@ -37,3 +37,6 @@ sudo update-ca-certificates
 #lazydocker
 go install github.com/jesseduffield/lazydocker@latest
 echo "alias lzd='lazydocker'" >> ~/.bashrc #lzd alias
+
+#R
+sudo zypper install libxml2-devel
